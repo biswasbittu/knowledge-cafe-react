@@ -32,8 +32,15 @@ const Blogs = ({blogsPromise}) => {
                     className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">See More</button> */}
                  </div>
                 </div>
-                <div className="w-[30%]">
-
+                <div className="w-[30%] px-2">
+                    <div className="bg-indigo-100 rounded-lg p-4 mb-6">
+                       <h1 className="text-center py-2 font-bold text-2xl text-[#6047EC]">Spent time on read : 0</h1>
+                    </div>
+                    <div className="bg-lime-100">
+                    <h1 className="text-xl font-bold pl-2">
+                        Bookmarked Blogs : 8
+                    </h1>
+                    </div>
                 </div>
             </div>
         </div>
