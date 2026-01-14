@@ -2,8 +2,8 @@ import { faBookmark, } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
-const Blog = ({ blog }) => {
-    console.log(blog)
+const Blog = ({ blog,handleBookMark,handleReadingTime }) => {
+    // console.log(blog)
     const { author, posted_date, cover, reading_time, title, hashtags, author_img } = blog
 
     return (
@@ -31,7 +31,7 @@ const Blog = ({ blog }) => {
                         </div>
                         <div className='flex gap-4'>
                             <p className='text-2xl font-semibold text-gray-500'>{reading_time} min read</p>
-                            <button 
+                            <button onClick={()=>handleReadingTime(blog)}
                             className='btn btn-link'> 
                             <FontAwesomeIcon className='text-xl' icon={faBookmark} />
                             </button>
@@ -41,10 +41,11 @@ const Blog = ({ blog }) => {
 
                 </div>
                 <div className="card-body">
-                    <h2 className="card-title text-7xl">New album is released!</h2>
+                    <h2 className="card-title text-7xl">{title}</h2>
                     <p className='flex gap-4 text-xl font-semibold text-gray-500 my-6'>{hashtags.map((has,idx) => <span key={idx}># {has}</span>)}</p>
                     <div className="card-actions justify-start">
-                        <button className="btn btn-link font-bold text-xl text-[#6047EC]">Mark as read</button>
+                        <button onClick={(()=>handleBookMark(blog))}
+                        className="btn btn-link font-bold text-xl text-[#6047EC]">Mark as read</button>
                     </div>
                 </div>
             </div>
