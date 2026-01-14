@@ -7,6 +7,7 @@ const Blogs = ({blogsPromise}) => {
     // console.log(blogs)
     return (
         <div>
+            <h1 className="text-2xl font-bold my-6">Blog: {blogs.length}</h1>
             <div className="flex ">
                 <div className="w-[70%] flex gap-8 flex-col">
                  {
