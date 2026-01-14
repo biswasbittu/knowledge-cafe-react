@@ -1,7 +1,7 @@
 import { use, useState } from "react";
 import Blog from "../Blog/Blog";
 import { toast } from "react-toastify";
-import { faBookmark } from "@fortawesome/free-regular-svg-icons";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
@@ -22,7 +22,8 @@ const Blogs = ({ blogsPromise }) => {
 
     // Bookmark State and Reading time State
     const [bookMarks, setBookMarks] = useState([]);
-    const [readingTime, setReadingTime] = useState(0)
+    const [readingTime, setReadingTime] = useState(0);
+    // const[readList, setReadList]= useState([])
     // BookMark and Reading Time Handeler 
     const handleBookMark = (blog) => {
         const isExist = bookMarks.find(item => item.id === blog.id)
@@ -42,8 +43,14 @@ const Blogs = ({ blogsPromise }) => {
         setBookMarks(updatedBookMarks)
         toast.error('Blog remove from bookmark')
     }
-    const handleReadingTime = (blog) => {
-        console.log('reading Time clicked :', blog)
+    const handleReadingTime = (id,time) => {
+        const timeNum=parseInt(time)
+        // const isRead=readList.includes(id)
+        // if(!isRead){ 
+        //     setReadingTime(pre=>pre+timeNum)
+        //     setReadList([...readList,id])
+        // }
+        setReadingTime(readingTime+timeNum)
     }
     return (
         <div>
@@ -66,7 +73,7 @@ const Blogs = ({ blogsPromise }) => {
                 </div>
                 <div className="w-[30%] px-2">
                     <div className="bg-indigo-100 rounded-lg p-4 mb-6">
-                        <h1 className="text-center py-2 font-bold text-2xl text-[#6047EC]">Spent time on read : 0</h1>
+                        <h1 className="text-center py-2 font-bold text-2xl text-[#6047EC]">Spent time on read :{readingTime}</h1>
                     </div>
                     <div className="bg-indigo-100 p-3  ">
                         <div className="text-xl font-bold mx-auto    ">

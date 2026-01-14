@@ -4,7 +4,7 @@ import React from 'react';
 
 const Blog = ({ blog,handleBookMark,handleReadingTime }) => {
     // console.log(blog)
-    const { author, posted_date, cover, reading_time, title, hashtags, author_img } = blog
+    const { author, posted_date, cover, reading_time, title, hashtags, author_img,id } = blog
 
     return (
         <div>
@@ -31,7 +31,7 @@ const Blog = ({ blog,handleBookMark,handleReadingTime }) => {
                         </div>
                         <div className='flex gap-4'>
                             <p className='text-2xl font-semibold text-gray-500'>{reading_time} min read</p>
-                            <button onClick={()=>handleReadingTime(blog)}
+                            <button onClick={()=>handleReadingTime(id,reading_time)}
                             className='btn btn-link'> 
                             <FontAwesomeIcon className='text-xl' icon={faBookmark} />
                             </button>
