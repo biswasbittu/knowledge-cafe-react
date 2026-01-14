@@ -1,9 +1,10 @@
 import React from 'react';
+import Navbar from './components/Navbar/Navbar';
 
 const App = () => {
   return (
-    <div>
-      <h1>Knowledge Cafe</h1>
+    <div className='container mx-auto'>
+      <Navbar></Navbar>
     </div>
   );
 };
