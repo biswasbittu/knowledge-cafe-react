@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co/84Zfw2n/1.jpg",
+    "title": "How to Get Your First Job as a Self-Taught Programmer",
+    "author_img": "https://i.ibb.co/VvLNdLL/boy1.png",
+    "author": "Mr. Raju",
+    "posted_date": "March 14, 2024",
+    "reading_time": 5,
+    "hashtags": ["beginners", "programming", "career"]
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co/Qm9Zc9P/2.jpg",
+    "title": "Top Programming Languages to Learn in 2024",
+    "author_img": "https://i.ibb.co/2FsfXqM/boy2.png",
+    "author": "Ali Raza",
+    "posted_date": "March 18, 2024",
+    "reading_time": 6,
+    "hashtags": ["programming", "career", "trends"]
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co/k9YyK7c/3.jpg",
+    "title": "Beginner Roadmap to Web Development",
+    "author_img": "https://i.ibb.co/x6vQZ4K/girl1.png",
+    "author": "Ayesha Khan",
+    "posted_date": "March 20, 2024",
+    "reading_time": 7,
+    "hashtags": ["webdev", "beginners", "frontend"]
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co/0Dk7pZb/4.jpg",
+    "title": "Understanding JavaScript Basics Clearly",
+    "author_img": "https://i.ibb.co/VvLNdLL/boy1.png",
+    "author": "Mr. Raju",
+    "posted_date": "March 22, 2024",
+    "reading_time": 5,
+    "hashtags": ["javascript", "beginners", "coding"]
+  },
+  {
+    "id": 5,
+    "cover": "https://i.ibb.co/6F3x7w8/5.jpg",
+    "title": "Frontend vs Backend Development Explained",
+    "author_img": "https://i.ibb.co/x6vQZ4K/girl1.png",
+    "author": "Sara Ahmed",
+    "posted_date": "March 25, 2024",
+    "reading_time": 6,
+    "hashtags": ["frontend", "backend", "webdev"]
+  },
+  {
+    "id": 6,
+    "cover": "https://i.ibb.co/9n1J5Sg/6.jpg",
+    "title": "How to Build Coding Habits That Last",
+    "author_img": "https://i.ibb.co/2FsfXqM/boy2.png",
+    "author": "Usman Tariq",
+    "posted_date": "March 27, 2024",
+    "reading_time": 4,
+    "hashtags": ["motivation", "coding", "habits"]
+  },
+  {
+    "id": 7,
+    "cover": "https://i.ibb.co/1vZ6rWQ/7.jpg",
+    "title": "Git and GitHub Explained for Beginners",
+    "author_img": "https://i.ibb.co/VvLNdLL/boy1.png",
+    "author": "Mr. Raju",
+    "posted_date": "March 29, 2024",
+    "reading_time": 5,
+    "hashtags": ["git", "github", "beginners"]
+  },
+  {
+    "id": 8,
+    "cover": "https://i.ibb.co/Xk9F7m2/8.jpg",
+    "title": "Top Mistakes New Programmers Make",
+    "author_img": "https://i.ibb.co/2FsfXqM/boy2.png",
+    "author": "Ali Raza",
+    "posted_date": "April 1, 2024",
+    "reading_time": 6,
+    "hashtags": ["beginners", "programming", "mistakes"]
+  },
+  {
+    "id": 9,
+    "cover": "https://i.ibb.co/6WZ4xg3/9.jpg",
+    "title": "Why Problem Solving Matters in Coding",
+    "author_img": "https://i.ibb.co/x6vQZ4K/girl1.png",
+    "author": "Ayesha Khan",
+    "posted_date": "April 3, 2024",
+    "reading_time": 5,
+    "hashtags": ["problem-solving", "coding", "logic"]
+  },
+  {
+    "id": 10,
+    "cover": "https://i.ibb.co/YyK3PZ1/10.jpg",
+    "title": "How Much Coding Is Enough to Get a Job?",
+    "author_img": "https://i.ibb.co/VvLNdLL/boy1.png",
+    "author": "Mr. Raju",
+    "posted_date": "April 5, 2024",
+    "reading_time": 7,
+    "hashtags": ["career", "job", "programming"]
+  },
+  {
+    "id": 11,
+    "cover": "https://i.ibb.co/5xKQ9dP/11.jpg",
+    "title": "Top Free Resources to Learn Programming",
+    "author_img": "https://i.ibb.co/2FsfXqM/boy2.png",
+    "author": "Usman Tariq",
+    "posted_date": "April 7, 2024",
+    "reading_time": 6,
+    "hashtags": ["resources", "learning", "coding"]
+  },
+  {
+    "id": 12,
+    "cover": "https://i.ibb.co/NW1n3R9/12.jpg",
+    "title": "Should You Learn Programming Without a Degree?",
+    "author_img": "https://i.ibb.co/x6vQZ4K/girl1.png",
+    "author": "Sara Ahmed",
+    "posted_date": "April 9, 2024",
+    "reading_time": 5,
+    "hashtags": ["career", "education", "programming"]
+  },
+  {
+    "id": 13,
+    "cover": "https://i.ibb.co/8jz6kJH/13.jpg",
+    "title": "Daily Coding Routine for Beginners",
+    "author_img": "https://i.ibb.co/VvLNdLL/boy1.png",
+    "author": "Mr. Raju",
+    "posted_date": "April 11, 2024",
+    "reading_time": 4,
+    "hashtags": ["beginners", "routine", "coding"]
+  },
+  {
+    "id": 14,
+    "cover": "https://i.ibb.co/4Yw5ZzR/14.jpg",
+    "title": "How to Stay Motivated While Learning to Code",
+    "author_img": "https://i.ibb.co/2FsfXqM/boy2.png",
+    "author": "Ali Raza",
+    "posted_date": "April 13, 2024",
+    "reading_time": 6,
+    "hashtags": ["motivation", "learning", "coding"]
+  },
+  {
+    "id": 15,
+    "cover": "https://i.ibb.co/7GvZP8k/15.jpg",
+    "title": "Is Web Development Still Worth It in 2024?",
+    "author_img": "https://i.ibb.co/x6vQZ4K/girl1.png",
+    "author": "Ayesha Khan",
+    "posted_date": "April 15, 2024",
+    "reading_time": 7,
+    "hashtags": ["webdev", "career", "future"]
+  }
+]
